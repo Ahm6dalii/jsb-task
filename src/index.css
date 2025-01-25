@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@theme {
+  --font-sen:"Sen", serif;
+  --font-Poppins:"Poppins", serif;
+}
+h1,h2,h3,h4,h5,h6{
+  @apply font-sans
+}
+p{
+  @apply font-Poppins
+}
+.container{
+  @apply   mx-auto
+}
+
+.btn{
+  @apply px-7 py-2 rounded-full  font-semibold
+}
+.btn-primary{
+@apply bg-[#fdba10] text-white
+}
+.btn-ouline{
+  @apply border border-2 px-10 border-[#C98A40]
+}
+.bg-primary{
+  @apply bg-[#c98a40] 
+}
+.text-primary{
+  @apply text-[#c98a40]
+}
+
+/* home */
+.bg-img{
+  background-image: url('./assets/bg//bg.svg');
+  background-size:cover ;
+  background-repeat:no-repeat ;
+}
+.bg-img-test{
+  background-image: url('./assets/mask.svg');
+  background-size:cover ;
+  background-repeat:no-repeat ;
+}
