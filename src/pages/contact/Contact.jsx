@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import email from '../../assets/icons/email.svg'
 import phone from '../../assets/icons/phone.svg'
 import { useFormik } from 'formik';
@@ -7,12 +6,7 @@ import * as yup from 'yup';
 const Contact = () => {
     const SubmitData = async (data) => {
         console.log(data)
-        const res = await fetch("http://upskilling-egypt.com:3000git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Ahm6dalii/jsb-task.git
-git push -u origin main/contact", {
+        const res = await fetch("http://upskilling-egypt.com:3000/contact", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
