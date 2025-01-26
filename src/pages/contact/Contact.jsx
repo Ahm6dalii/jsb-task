@@ -46,11 +46,11 @@ const Contact = () => {
 
     return (
         <section className='py-8'>
-            <div className=''>
+            <div className='px-8 sm:px-1'>
                 <h2 className='mb-12 text-center tracking-wider uppercase w-full  font-sen font-[800]  leading-15  text-[50px] sm:text-[60px] md:text-[70px] lg:text-[100px] xl:text-[120px]  text-primary sm:leading-[100px]'>
                     Contact
                 </h2>
-                <div className="w-[60%] lg:w-[48%] mx-auto gap-20 grid grid-cols-1 md:grid-cols-2">
+                <div className="sm:w-[60%] lg:w-[48%] mx-auto gap-20 grid grid-cols-1 md:grid-cols-2">
                     <div className="">
                         <form onSubmit={handleSubmit} className="flex flex-col gap-3">
                             <input name='name' onChange={handleChange} onBlur={handleBlur} className={`${errors.name&&touched.name?'border-2 border-red-500':'' } ps-3 focus:outline-none  rounded-[61px] py-4 w-full  bg-[#FFD39F] placeholder:text-black placeholder:ps-5 placeholder:font-bold  placeholder:font-sen placeholder:text-[14px]`} placeholder='Full Name' type="text" />

@@ -16,7 +16,7 @@ const Home = () => {
                     
 
                     <div className=" md:mb-18 md:pe-10 px-3 sm:px-0 ">
-                    <h1 className='font-sen font-[800] text-[38px] sm:text-[50px] uppercase text-nowrap text-white'>Tasty pastries</h1>
+                    <h1 className='font-sen font-[800] text-[30px] sm:text-[50px] uppercase text-nowrap text-white'>Tasty pastries</h1>
                     <p className='max-w-[50ch] leading-5 mt-2  sm:me-10 text-white mb-6'>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
                     </p>

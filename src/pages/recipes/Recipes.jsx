@@ -29,7 +29,7 @@ const Recipes = () => {
             Recipes
             </h2>
 
-            <div className='mt-5 mb-6 max-w-[75%] mx-auto grid md:grid-cols-3 gap-4'>
+            <div className='mt-5 mb-6 sm:max-w-[75%] mx-auto grid md:grid-cols-3 gap-4'>
                 {
                     recipe?.map(({strMealThumb,strMeal,idMeal})=>(
                             <RecipesCard  key={idMeal} id={idMeal} img={strMealThumb} desc={strMeal}/>

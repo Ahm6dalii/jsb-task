@@ -5,8 +5,8 @@ const Testmonials = () => {
   return (
     <section className='bg-primary  relative min-h-screen  '>
         <div className='bg-img-test py-8  h-full w-full'>
-        <div className='w-[75%] mx-auto'>
-        <h2 className='text-center tracking-wider uppercase w-full uppercase  font-sen font-[800]  leading-15  text-[50px] sm:text-[60px] md:text-[70px] lg:text-[100px] xl:text-[120px]  text-white sm:leading-[100px]'>
+        <div className='sm:w-[75%] mx-auto'>
+        <h2 className='text-center tracking-wider  w-full uppercase  font-sen font-[800]  leading-15  text-[30px] sm:text-[50px]  md:text-[70px] lg:text-[100px] xl:text-[120px]  text-white sm:leading-[100px]'>
         testymonials
         </h2>
             <div className="grid px-10 mt-12 grid-cols-1 md:grid-cols-2 gap-10">
